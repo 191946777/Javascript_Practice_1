@@ -139,3 +139,26 @@ function mean() {
 }
 
 mean();
+
+// CHAPTER 4
+
+console.log("har\"".length);
+
+let str = "Hello Which is the popular language"
+
+let result = str.includes("popular")
+
+console.log(result);
+
+let str = "AmAn"
+
+let a = str.toUpperCase();
+console.log(a);
+
+let str = "Please give rs 1000"
+
+let result = str.slice(15)
+console.log(result);
+
+let result = str.replace('a','t')
+console.log(result);
