@@ -162,3 +162,64 @@ console.log(result);
 
 let result = str.replace('a','t')
 console.log(result);
+
+//CHAPTER 5
+
+let arr = [10, 12, 25, 30, 35];
+console.log(arr);
+
+arr.push(Number(prompt("enter the number")));
+
+console.log(arr);
+console.log(typeof arr[5]);
+
+// QUESTION 2 IS NOT UNDERSTAND BY ME
+
+let num = arr.filter(ele => ele % 5 === 0);
+
+console.log(num);
+
+let num = arr.map(num => num * 2)
+console.log(num);
+
+//QUESTION 4 AND 5 NOT understand by me
+
+//CHAPTER 6
+
+let promptFun = () => {
+  let age = Number(prompt("enetr the age"));
+
+  if (age <= 0) {
+    console.error("Enter the valid age");
+  } else if (age >= 18) {
+    alert("you can drive");
+  } else {
+    alert("you cant drive");
+  }
+};
+
+promptFun();
+
+QUESTION 2 LOGIC DIDNT UNDERSTAND BY ME
+
+let redirectFun = ()=>{
+  let num = Number(prompt("Enter the number to redirect"))
+
+  if(isNaN(num)){
+    alert("enter the proper number")
+  } else if (num >= 4){
+    window.location.href = "https://randomuser.me/"
+  }else {
+    alert("try again")
+  }
+}
+
+redirectFun()
+
+let changeBg = () =>{
+  let color = prompt("enter the color name");
+
+  document.body.style.backgroundColor = color
+}
+
+changeBg()
